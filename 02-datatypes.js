@@ -5,14 +5,13 @@ TIPOS DE DATOS
     Tipos de datos primitivos:
         existen 7 tipos:
             1. String > Cadena de texto
-            2. Int    > Numeros enteros
-            3. Decimal > Numeros decimales
-            4. Boolean > Booleanos
-            5. Undefined > Variable declarada sin un valor agregado
-            6. Null     > ausencia de valor(intensionadamente)
-
-
-
+            2. Int Decimal > Numeros
+            3. Boolean > Booleanos
+            4. Undefined > Variable declarada sin un valor agregado
+            5. Null     > Ausencia de valor(intensionadamente)
+            6. Symbol   > Son valores unicos , pueden usados como identificadores de propiedades 
+                          Para intentar evitar colisiones entre otras propiedades  
+            
 */
 
 // Strings
@@ -34,3 +33,6 @@ console.log(undefinedValue)
 
 // Null
 let nullValue = null
+
+// Symbol
+let mySymbol = Symbol("mysymbol")
