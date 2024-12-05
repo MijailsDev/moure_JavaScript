@@ -11,7 +11,7 @@ TIPOS DE DATOS
             5. Null     > Ausencia de valor(intensionadamente)
             6. Symbol   > Son valores unicos , pueden usados como identificadores de propiedades 
                           Para intentar evitar colisiones entre otras propiedades  
-            
+            7. BigInt   > Numeros interos extremadamente grandes (ocupa todo el espacio de memoria de la computadora)
 */
 
 // Strings
@@ -36,3 +36,7 @@ let nullValue = null
 
 // Symbol
 let mySymbol = Symbol("mysymbol")
+
+// BigInt 
+let myBigInt = BigInt(3134431316513134653654316546546841654)
+let myBigInt2 = 3134431316513134653654316546546841654n		// este tambien es una forma de representar un BigInt
