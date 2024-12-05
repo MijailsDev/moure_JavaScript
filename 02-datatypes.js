@@ -9,7 +9,7 @@ TIPOS DE DATOS
             3. Decimal > Numeros decimales
             4. Boolean > Booleanos
             5. Undefined > Variable declarada sin un valor agregado
-            6. 
+            6. Null     > ausencia de valor(intensionadamente)
 
 
 
@@ -31,3 +31,6 @@ let isTeacher = false
 // Undefined
 let undefinedValue
 console.log(undefinedValue)
+
+// Null
+let nullValue = null
