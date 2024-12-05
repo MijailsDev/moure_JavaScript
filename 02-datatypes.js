@@ -8,7 +8,8 @@ TIPOS DE DATOS
             2. Int    > Numeros enteros
             3. Decimal > Numeros decimales
             4. Boolean > Booleanos
-            5.
+            5. Undefined > Variable declarada sin un valor agregado
+            6. 
 
 
 
@@ -26,3 +27,7 @@ let height = 1.77   // Decimal
 // Booleanos (boolean)
 let isStudent = true
 let isTeacher = false
+
+// Undefined
+let undefinedValue
+console.log(undefinedValue)
