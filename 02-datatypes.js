@@ -15,7 +15,7 @@ TIPOS DE DATOS
 */
 
 // Strings
-let name = "Mijail"
+let myname = "Mijail"
 let alias = 'wolf'
 let email = `mijailwwe@gmail.com`
 
@@ -40,3 +40,32 @@ let mySymbol = Symbol("mysymbol")
 // BigInt 
 let myBigInt = BigInt(3134431316513134653654316546546841654)
 let myBigInt2 = 3134431316513134653654316546546841654n		// este tambien es una forma de representar un BigInt
+
+
+// Mostramos los tipos de datos 
+console.log(typeof myname)
+console.log(typeof alias)
+console.log(typeof email)
+
+
+console.log(typeof age)
+console.log(typeof height)
+
+
+console.log(typeof isStudent)
+console.log(typeof isTeacher)
+
+
+console.log(typeof undefinedValue)
+
+
+console.log(typeof nullValue)
+
+
+console.log(typeof mySymbol)
+
+
+console.log(typeof myBigInt)
+
+console.log(typeof myBigInt2)
+
