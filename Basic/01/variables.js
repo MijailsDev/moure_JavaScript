@@ -19,3 +19,10 @@ console.log(helloWorld2)
     
     
     // const
+const helloWorld3 = "Hello, JavaScript3!"
+console.log(helloWorld3)    
+
+
+// ERROR: No puedes reasignar valors a esta variable por que es de tipo constante
+// helloWorld3 = "Hello de nuevo, JavaScript3!"
+// console.log(helloWorld3)   
