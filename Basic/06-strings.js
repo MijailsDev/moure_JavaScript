@@ -24,3 +24,20 @@ console.log(greeting.includes("dev"))      // nos devuel ve un booleano : true/f
 console.log(greeting.slice(0,10))          // imprime los indices desde el 0 a 10
 console.log(greeting.replace("Mijail", "Goku")) // cambia el valor de Mijail a Goku
 
+
+
+// Templates literals (plantillas literales)
+
+let message = `Hola, este 
+es mi
+curso de 
+JavaScript`                    // para escribir en saltos de linea escribir entre comillas invertidas
+
+console.log(message)
+
+let email = "mijail@mail.com"
+console.log(`Hola, ${myName}! Tu email es ${email}`)  // interpolacion de variables: se necesita comillas invertidas y ${ } 
+
+
+
+
