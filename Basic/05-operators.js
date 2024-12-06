@@ -47,7 +47,7 @@ console.log(a === a)    // Igualdad por identidad (por tipo y valor)
 console.log(a === 6)    // a es igual(estrictamente) a 6 ? > true
 console.log(a != b)     // a es distinto de b ?
 
-console.log(0 = false)  // true
+console.log(0 == false)  // true
 console.log(1 == true)  // para los numeros 1,2,3 ... > true
 
 // Truthy values (valores verdaderos)
@@ -62,3 +62,28 @@ console.log(1 == true)  // para los numeros 1,2,3 ... > true
 // NaN 
 // El boolean false
 // Cadenas de texto vacias
+
+
+
+
+// Operadores logicos
+
+//      and (&&)
+ console.log(5 > 10 && 15 > 20)     // false
+ console.log(5 < 10 && 15 > 20)     // false
+ console.log(5 < 10 && 15 < 20)     // true
+ console.log(5 > 10 && 15 < 20)     // false
+ 
+ //     or (||)
+ console.log(5 > 10 || 15 > 20)     // false
+ console.log(5 < 10 || 15 > 20)     // true
+ console.log(5 < 10 || 15 < 20)     // true
+ console.log(5 > 10 || 15 < 20)     // true
+ 
+ console.log(5 > 10 && 15 > 20 || 30 < 40)      // true
+ 
+ //     not (!)
+ console.log(!(5 > 10 && 15 > 20))     // true
+ console.log(!(5 > 10 || 15 > 20))     // true
+
+ 
