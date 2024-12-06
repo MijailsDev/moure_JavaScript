@@ -87,3 +87,8 @@ console.log(1 == true)  // para los numeros 1,2,3 ... > true
  console.log(!(5 > 10 || 15 > 20))     // true
 
  
+ 
+ // Operadores ternarios
+ 
+ const isRaining = true
+ isRaining ? console.log("Esta lloviendo") : console.log("No esta lloviendo")
