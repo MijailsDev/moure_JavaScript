@@ -31,3 +31,22 @@ myVariable *= 2
 myVariable /= 2
 myVariable %= 2
 myVariable **= 2
+
+
+
+// Operadores de comparacion
+//      a = 6 
+//      b = 9
+console.log(a > b)      // a es mayor b ?
+console.log(a < b)      // a es menor que b ?
+console.log(a >= b)     // a es mayor o igual que b ?
+console.log(a <= b)     // a es menor o igual que b ?
+console.log(a == b)     // a es igual a b ?     -   comparacion de igualdad por valor
+console.log(a == "6")   // esto tiene el mismo valor(DATO) > true
+console.log(a === a)    // Igualdad por identidad (por tipo y valor)
+console.log(a === 6)    // a es igual(estrictamente) a 6 ? > true
+console.log(a != b)     // a es distinto de b ?
+
+console.log(0 = false)  // true
+console.log(1 == true)  // para los numeros 1,2,3 ... > true
+
