@@ -50,3 +50,15 @@ console.log(a != b)     // a es distinto de b ?
 console.log(0 = false)  // true
 console.log(1 == true)  // para los numeros 1,2,3 ... > true
 
+// Truthy values (valores verdaderos)
+// Todos los numeros positivos y negativos menos el cero
+// El boolean true
+
+// Falsy values (valores falsos)
+// 0
+// 0n
+// null
+// undefined
+// NaN 
+// El boolean false
+// Cadenas de texto vacias
