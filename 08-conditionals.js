@@ -32,3 +32,9 @@ if (age != 37){
     console.log("La edad es 37 con else")
     
 }
+
+
+// Operadores ternarios
+
+const message = age == 37 ? "La edad es 37" : "La edad no es 37" 
+console.log(message)
