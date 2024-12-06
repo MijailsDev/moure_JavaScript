@@ -13,3 +13,7 @@
 // 7. A continuacion, modifica los valores de las variables por otros de distinto tipo
 
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
+
+// 9. A continuacion, modifica los valores de las constantes
+
+// 10. Comenta las lineas que produzcan algun tipo de error al ejecutarse
