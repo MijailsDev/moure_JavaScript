@@ -19,3 +19,15 @@ console.log(b)
 
 
 
+// Operadores de asignacion 
+
+let myVariable = 2
+console.log(myVariable)
+myVariable += 2
+console.log(myVariable)
+
+myVariable -= 2
+myVariable *= 2
+myVariable /= 2
+myVariable %= 2
+myVariable **= 2
