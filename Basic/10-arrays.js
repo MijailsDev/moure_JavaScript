@@ -51,3 +51,8 @@ myArray.push(37)
 
 console.log(myArray)
 
+// pop
+myArray.pop()  // ademas pop guarda el elemento eliminado
+myArray.pop()
+
+console.log(myArray)
