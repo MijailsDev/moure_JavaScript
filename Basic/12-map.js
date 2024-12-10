@@ -36,6 +36,9 @@ console.log(myMap.get("name"))  // devuelve el valor de la clave name
 console.log(myMap.get("surname"))  // no existe esa clave
 
 
+// has
+console.log(myMap.has("surname")) // contienen la clave surname ?
+console.log(myMap.has("age"))       // contienen la clave age ?
 
 
 
