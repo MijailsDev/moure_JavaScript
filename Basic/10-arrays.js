@@ -71,6 +71,11 @@ console.log(myArray)
 myArray.unshift("Brais", "mouredev") 
 console.log(myArray) 
 
-// length
 
+// length
 console.log(myArray.length)
+
+
+// clear
+myArray = []
+console.log(myArray)
