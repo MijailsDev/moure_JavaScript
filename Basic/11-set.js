@@ -1,4 +1,4 @@
-// SET
+// SET         :  no admite duplicados
 
 // Declaracion 
 let mySet = new Set()         // forma correcta de declarar
@@ -53,3 +53,9 @@ console.log(myArray)
 // convertir un array a set
 mySet = new Set(myArray)    // instanciamos un nuevo set y le pasamos el array
 console.log(mySet)
+
+
+// los Sets no admite duplicados
+mySet.add("https://moure.dev")
+mySet.add("https://moure.dev")
+mySet.add("https://moure.dev")
