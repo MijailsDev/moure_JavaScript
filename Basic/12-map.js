@@ -47,4 +47,6 @@ myMap.delete("email")   // eliminamos la clave "email" por lo cual tenemos menos
 console.log(myMap)
 
 
-
+// clear
+myMap.clear()       // vacia el map, queda sin elementos
+console.log(myMap)
