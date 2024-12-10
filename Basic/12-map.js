@@ -15,3 +15,16 @@ myMap = new Map([
 ])
 
 console.log(myMap)
+
+
+
+// Metodos y propiedades
+
+//      set : para actualizar o agregar un elemento
+//          
+
+
+//set 
+myMap.set("alias", "mouredev")      // agregar
+myMap.set("name", "Brais Moure")    // actualizar
+console.log(myMap)
