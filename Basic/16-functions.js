@@ -11,3 +11,13 @@ myFunc()
 myFunc()
 myFunc()
 myFunc()
+
+
+// Con parametros 
+function myFuncWitharams (name) {
+    console.log(`Hola, ${name}!`)
+}
+myFuncWitharams("Brais")
+myFuncWitharams("MoureDev")
+
+
