@@ -42,3 +42,9 @@ console.log(myMap.has("age"))       // contienen la clave age ?
 
 
 
+// delete
+myMap.delete("email")   // eliminamos la clave "email" por lo cual tenemos menos un elemento en el Map
+console.log(myMap)
+
+
+
