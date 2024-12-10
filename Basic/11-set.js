@@ -46,3 +46,5 @@ console.log(mySet.has("Brais"))
 console.log(mySet.size)
 
 
+s// Convertir un set a array
+let myArray = Array.from(mySet) // copia todos los elementos del set a un array
