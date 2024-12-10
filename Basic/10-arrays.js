@@ -81,3 +81,11 @@ console.log(myArray.length)
 myArray.length = 0    // estaes un forma altenativa de vaciar o limpiar un array
 console.log(myArray)
 
+
+// slice : devuelte una copia superficial del tamaño requerido
+myArray.push("Brais", "Moure", "mouredev", 37, true)
+
+let myNewArray = myArray.slice(1,3)  // crear un copia de los indices del 1 al 2, sin contar el 3
+
+console.log(myArray)
+console.log(myNewArray)
