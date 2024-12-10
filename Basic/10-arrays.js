@@ -28,3 +28,9 @@ myArray2[2] = "mouredev"
 
 console.log(myArray2)
 
+
+
+// Añadiendo poco a poco valores myArray
+myArray[1] = "Mouredev"
+
+console.log(myArray)
