@@ -89,3 +89,8 @@ let myNewArray = myArray.slice(1,3)  // crear un copia de los indices del 1 al 2
 
 console.log(myArray)
 console.log(myNewArray)
+
+
+// splice
+myArray.splice(1,3)  // elimina esos elementos desde los indices 1 al 3, se toma consideracion al indice 3
+console.log(myArray)
