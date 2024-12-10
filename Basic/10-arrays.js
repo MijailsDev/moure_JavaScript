@@ -94,3 +94,9 @@ console.log(myNewArray)
 // splice
 myArray.splice(1,3)  // elimina esos elementos desde los indices 1 al 3, se toma consideracion al indice 3
 console.log(myArray)
+
+//splice con 3 argumentos 
+myArray = ["Brais", "Moure", "mouredev", 37, true]
+
+myArray.splice(1,2, "Nuevo elemento") // elimina indices : 1 y 2. Y reemplaza en su lugar por "Nuevo elemento"
+console.log(myArray)
