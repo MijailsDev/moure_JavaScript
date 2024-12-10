@@ -20,3 +20,10 @@ while (i < 5) {
 }
 
 
+
+// do while
+i = 6
+do {
+    console.log(`do-while Hola ${i}`)
+    i++
+}while(i < 5)
