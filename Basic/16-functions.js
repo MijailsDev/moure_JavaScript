@@ -37,3 +37,19 @@ const myFunc3 = (name) => {
 }
 myFunc3("Brais Moure Arrow")
 myFunc3("Brais Moure Arrow")
+
+
+
+// Parametros 
+function sum(a, b) {
+    console.log(a + b)
+}
+sum(5, 10)
+
+function defaultSum(a = 0, b= 0) {
+    console.log(a + b)
+}
+defaultSum()
+defaultSum(5)
+defaultSum(5, 10)
+defaultSum(b = 5)
