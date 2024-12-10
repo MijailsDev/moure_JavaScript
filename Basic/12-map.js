@@ -53,6 +53,9 @@ console.log(myMap.keys())   // devuelve un listado de todos las claves
 // Values
 console.log(myMap.values()) // devuelve los valores del Map
 
+// entries
+console.log(myMap.entries())    // devuelve el par : claves y valores
+
 // size
 console.log(myMap.size)     // muestra el tamaño de este Mapa
 
