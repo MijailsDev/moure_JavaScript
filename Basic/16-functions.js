@@ -53,3 +53,13 @@ defaultSum()
 defaultSum(5)
 defaultSum(5, 10)
 defaultSum(b = 5)
+
+
+
+// Retorno de valores
+function mult(a, b) {
+    return a * b
+}
+
+let result = mult(5, 10)
+console.log(result)
