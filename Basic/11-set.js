@@ -35,3 +35,7 @@ console.log(mySet.delete(4))        // aqui eliminamos a brais
 console.log(mySet)
 
 
+// has
+
+console.log(mySet.has("Moure"))     // contiene el elemento Moure ?
+console.log(mySet.has("Brais"))
