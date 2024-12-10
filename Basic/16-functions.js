@@ -77,3 +77,13 @@ function extern() {
 
 extern()
 // intern()    Error:  Fuera del scope
+
+
+
+// Funciones de orden superior
+
+function applyFunc(func, param) {
+    func(param)
+}
+applyFunc(myFunc3, "Funcion de orden superior")
+
