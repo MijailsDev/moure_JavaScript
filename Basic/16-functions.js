@@ -63,3 +63,17 @@ function mult(a, b) {
 
 let result = mult(5, 10)
 console.log(result)
+
+
+// Funciones anidades
+
+function extern() {
+    console.log("Funcion externa")
+    function intern() {
+        console.log("Funcion interna")
+    }
+    intern()
+}
+
+extern()
+// intern()    Error:  Fuera del scope
