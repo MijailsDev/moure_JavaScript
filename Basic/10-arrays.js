@@ -77,5 +77,7 @@ console.log(myArray.length)
 
 
 // clear
-myArray = []
+// myArray = []
+myArray.length = 0    // estaes un forma altenativa de vaciar o limpiar un array
 console.log(myArray)
+
