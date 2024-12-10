@@ -18,6 +18,7 @@ console.log(mySet)
 //      delete : elimina los elementos que queremos eliminar
 //               ademas devuelve true si fue eliminado y false si no fue.
 //      has : comprueba si tiene o no tiene el elemento
+//      size : muestra el tamaño del set
 
 // add
 mySet.add("https://moure.dev")
@@ -39,3 +40,9 @@ console.log(mySet)
 
 console.log(mySet.has("Moure"))     // contiene el elemento Moure ?
 console.log(mySet.has("Brais"))
+
+
+// size
+console.log(mySet.size)
+
+
