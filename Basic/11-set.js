@@ -17,6 +17,7 @@ console.log(mySet)
 //      add : agrega elementos al final del set
 //      delete : elimina los elementos que queremos eliminar
 //               ademas devuelve true si fue eliminado y false si no fue.
+//      has : comprueba si tiene o no tiene el elemento
 
 // add
 mySet.add("https://moure.dev")
@@ -27,4 +28,10 @@ console.log(mySet)
 // delete
 mySet.delete("https://moure.dev")   // aqui eliminamos "https://moure.dev" del set
 
+console.log(mySet.delete("Brais"))
+console.log(mySet.delete(4))        // aqui eliminamos a brais
+
+
 console.log(mySet)
+
+
