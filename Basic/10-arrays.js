@@ -66,3 +66,7 @@ console.log(myArray)
 // shift
 console.log(myArray.shift())  // ademas shift tambien guarda el elemento eliminado
 console.log(myArray)
+
+// unshift
+myArray.unshift("Brais", "mouredev") 
+console.log(myArray) 
