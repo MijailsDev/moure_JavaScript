@@ -48,3 +48,8 @@ console.log(mySet.size)
 
 // Convertir un set a array
 let myArray = Array.from(mySet) // copia todos los elementos del set a un array
+console.log(myArray)
+
+// convertir un array a set
+mySet = new Set(myArray)    // instanciamos un nuevo set y le pasamos el array
+console.log(mySet)
