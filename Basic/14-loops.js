@@ -61,3 +61,18 @@ for (let valor of myMap) {
 for (let valor of myString) {
     console.log(valor)
 }
+
+
+
+// Buenas practicas
+
+// break y continue
+
+for (let i = 0; i < 10; i++) {
+    if (i == 5) {       // se salta el 5 
+        continue
+    } else if(i == 8) {     // se rompe el bucle, ahi termina
+        break
+    }
+    console.log(`Hola ${i}`)
+} 
