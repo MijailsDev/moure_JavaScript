@@ -27,3 +27,13 @@ const myFunc2 = function (name) {
 }
 
 myFunc2("Brais Moure")
+
+
+
+// Arrow functions  o funciones flecha
+
+const myFunc3 = (name) => {
+    console.log(`Hola, ${name}!`)    
+}
+myFunc3("Brais Moure Arrow")
+myFunc3("Brais Moure Arrow")
