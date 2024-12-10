@@ -27,3 +27,31 @@ do {
     console.log(`do-while Hola ${i}`)
     i++
 }while(i < 5)
+
+
+
+
+
+// for of       :   recorre valores de algo iterable 
+
+myArray = [1, 2, 3, 4]
+
+mySet = new Set(["Brais", "Moure", "mouredev", 37, true, "braismoure@mouredev.com"])
+
+myMap = new Map([
+    ["name", "Brais"],
+    ["email", "braismoure@mouredev.com"],
+    ["age", 37]
+])
+
+for (let valor of myArray) {
+    console.log(valor)
+}
+
+for (let valor of mySet) {
+    console.log(valor)
+}
+
+for (let valor of myMap) {
+    console.log(valor)
+}
