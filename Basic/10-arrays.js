@@ -56,3 +56,13 @@ myArray.pop()  // ademas pop guarda el elemento eliminado
 myArray.pop()
 
 console.log(myArray)
+
+
+// Metodos comunes
+
+//      Shift  : Eliminar el primer elemento del array
+//      Unshift : agrega elementos al principio del array
+
+// shift
+console.log(myArray.shift())  // ademas shift tambien guarda el elemento eliminado
+console.log(myArray)
