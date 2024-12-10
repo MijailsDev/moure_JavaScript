@@ -44,6 +44,8 @@ myMap = new Map([
     ["age", 37]
 ])
 
+myString = "Hola, JavaScript!"
+
 for (let valor of myArray) {
     console.log(valor)
 }
@@ -53,5 +55,9 @@ for (let valor of mySet) {
 }
 
 for (let valor of myMap) {
+    console.log(valor)
+}
+
+for (let valor of myString) {
     console.log(valor)
 }
