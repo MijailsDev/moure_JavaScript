@@ -34,3 +34,20 @@ console.log(myArray2)
 myArray[1] = "Mouredev"
 
 console.log(myArray)
+
+
+// Metodos comunes 
+
+//      push : Introduce elementos a un array, sigue un orden creciente
+//      pop : Elimina el ultimo elemento del array
+
+myArray = []
+
+// push
+myArray.push("Brais")  // introducir elementos en el array
+myArray.push("Moure")
+myArray.push("mouredev")
+myArray.push(37)
+
+console.log(myArray)
+
