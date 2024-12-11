@@ -93,6 +93,8 @@ applyFunc(myFunc3, "Funcion de orden superior")
 
 myArray = [1, 2, 3, 4]
 
+mySet = new Set(["Brais", "Moure", "mouredev", 37, true, "braismoure@mouredev.com"])
+
 myMap = new Map([
     ["name", "Brais"],
     ["email", "braismoure@mouredev.com"],
@@ -109,3 +111,4 @@ myArray.forEach((value) => console.log(value))  // forma simplificada
 
 myMap.forEach((value) => console.log(value))  // forma simplificada
 
+mySet.forEach((value) => console.log(value))  // forma simplificada
