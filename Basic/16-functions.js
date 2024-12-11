@@ -93,9 +93,19 @@ applyFunc(myFunc3, "Funcion de orden superior")
 
 myArray = [1, 2, 3, 4]
 
+myMap = new Map([
+    ["name", "Brais"],
+    ["email", "braismoure@mouredev.com"],
+    ["age", 37]
+])
+
 
 myArray.forEach(function (value) {
     console.log(value)    
 })
 
 myArray.forEach((value) => console.log(value))  // forma simplificada
+
+
+myMap.forEach((value) => console.log(value))  // forma simplificada
+
