@@ -87,3 +87,15 @@ function applyFunc(func, param) {
 }
 applyFunc(myFunc3, "Funcion de orden superior")
 
+
+
+// forEach
+
+myArray = [1, 2, 3, 4]
+
+
+myArray.forEach(function (value) {
+    console.log(value)    
+})
+
+myArray.forEach((value) => console.log(value))  // forma simplificada
